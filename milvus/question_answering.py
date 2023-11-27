@@ -8,8 +8,8 @@ from towhee import pipe, ops
 from towhee.datacollection import DataCollection
 
 # Milvus parameters
-host = os.environ["MILVUS_HOST"]
-port = os.environ["MILVUS_PORT"]
+host = os.environ.get('MILVUS_HOST', '127.0.0.1')
+port = os.environ.get('MILVUS_PORT', '19530')
 
 # Function to create Milvus collection
 def create_milvus_collection(collection_name, dim):
