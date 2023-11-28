@@ -2,7 +2,7 @@
 
 This Python script enables a question-answering system functionality using Milvus for storage and Towhee for processing. It creates a collection in Milvus, loads embeddings, and performs question-based searches, serving it via web interface by using Gradio.
 
-The example is based on [the Question Answering System example from  towwhee-io/examples repositories](https://raw.githubusercontent.com/towhee-io/examples/main/nlp/question_answering/1_build_question_answering_engine.ipynb).
+The example is based on [the Question Answering System example from towhee-io/examples repositories](https://raw.githubusercontent.com/towhee-io/examples/main/nlp/question_answering/1_build_question_answering_engine.ipynb).
 
 ## Prerequisites
 
