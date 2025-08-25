@@ -1,0 +1,41 @@
+body {
+    color: #ffffff;
+    background: #114ed1;
+    font-family: "Gill Sans", sans-serif;
+}
+
+p {
+    font-size: 18px;
+    color: #ffffff;
+}
+
+h1 {
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+img {
+    margin-top: 20px;
+    max-width: 80%;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.btn-primary {
+    color: #fff;
+    border-color: white;
+    margin-bottom: 5px;
+}
+
+.jumbotron {
+    background: #25ba59;
+    color: white;
+    text-align: center;
+}
+
+.jumbotron p {
+    color: white;
+    font-size: 26px;
+}

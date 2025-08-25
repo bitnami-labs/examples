@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link href="css/styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <nav class="navbar navbar-dark bg-dark navbar-fixed-top navbar-expand-md">
+            <div class="container">
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav mr-auto">
+                        <li class="nav-item"><a href="/" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item"><a href="/containers" class="nav-link">Containers</a>
+                        </li>
+                        <li class="active nav-item"><a href="/charts" class="nav-link">Charts</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="jumbotron">
+            <h1>Beyond Containers: The Power of Charts</h1>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="d-flex justify-content-center align-items-center">
+                    <p>
+                    <div class="caption">
+                        <p>Charts are pre-configured packages or blueprints that simplify the deployment and management of applications. A single chart can be used to deploy something simple, like a Memcached pod, or a complex web application with servers, databases, and caches. These charts are organized in a specific directory tree and can be packaged into versioned archives for easy deployment.</p>
+                        <p>Helm streamlines application deployment on Kubernetes using a packaging format called a Helm chart. Much like APT manages .deb packages, Helm manages charts for Kubernetes.</p>
+                        <p>Helm charts consist of templates (YAML files), default configuration values (values.yaml), and metadata (Chart.yaml). This templating and packaging process allows users to install, upgrade, and manage complex applications with simple commands, making Helm the "package manager for Kubernetes".</p>
+                    </div>
+                    <div class="col-lg-6 d-flex justify-content-center">
+                        <img src="https://helm.sh/img/helm.svg" alt="Helm" class="helm-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,15 @@
+# Use Node.js image to download deps with npm install
+FROM bitnamisecure/node:latest AS builder
+
+WORKDIR /tmp/app
+COPY app.js package.json /tmp/app/
+COPY views /tmp/app/views
+RUN npm install
+
+# Use Node.js minimal image to run our app
+FROM bitnamisecure/node-min:latest
+
+WORKDIR /app
+COPY --from=builder /tmp/app /app
+EXPOSE 8080
+ENTRYPOINT ["node", "app.js"]

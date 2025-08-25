@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link href="css/styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <nav class="navbar navbar-dark bg-dark navbar-fixed-top navbar-expand-md">
+            <div class="container">
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav mr-auto">
+                        <li class="nav-item"><a href="/" class="nav-link">Home</a>
+                        </li>
+                        <li class="active nav-item"><a href="/containers" class="nav-link">Containers</a>
+                        </li>
+                        <li class="nav-item"><a href="/charts" class="nav-link">Charts</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="jumbotron">
+            <h1>Understanding Containers</h1>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="d-flex justify-content-center align-items-center">
+                    <p>
+                    <div class="caption">
+                        <p>A container is a standard software unit that bundles an application and all its dependencies. This ensures the application runs quickly and reliably across different computing environments.</p>
+                        <p>A Docker container image is a lightweight, standalone, and executable software package that contains everything an application needs to run: code, runtime, system tools, libraries, and settings. At runtime, these images become containers when they run on the Docker Engine.</p>
+                        <p>Containers isolate software from their environment, ensuring they work consistently regardless of the underlying infrastructure, from development to production. They are designed to be:</p>
+                        <ul>
+                            <li><b>Standard:</b> Docker set the industry standard, making containers portable anywhere.</li>
+                            <li><b>Lightweight:</b> By sharing the host machine's OS kernel, containers don't require a separate OS for each application. This boosts server efficiency and cuts down on server and licensing costs.</li>
+                            <li><b>Secure:</b> Containers provide a safer environment for applications, with Docker offering robust default isolation capabilities.</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-6 d-flex justify-content-center">
+                        <img src="https://www.docker.com/app/uploads/2021/11/container-what-is-container-1080x935.png" alt="Container architecture" class="container-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

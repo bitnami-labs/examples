@@ -1,0 +1,9 @@
+{
+  "name": "nodejs-example",
+  "description": "nodejs example image",
+  "version": "0.1.0",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
